@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("medicos")
+@RequestMapping("/medicos")
 public class MedicoController {
 
     @Autowired
